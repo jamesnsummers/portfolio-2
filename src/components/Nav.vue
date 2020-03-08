@@ -1,9 +1,6 @@
 <template>
   <div class="nav">
-    <h1>{{ msg }}</h1>
-    <p>
-      developer // writer \\ musician
-    </p>
+    <p>developer // writer \\ musician</p>
   </div>
 </template>
 
