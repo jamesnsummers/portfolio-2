@@ -13,8 +13,8 @@ import Toggle from './components/Toggle.vue'
 export default {
   name: 'App',
   components: {
+    Toggle,
     Nav,
-    Toggle
   }
 }
 </script>
