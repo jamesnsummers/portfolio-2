@@ -10,7 +10,6 @@
 
 <script>
 export default {
-  components: 'Toggle',
   name: 'Toggle',
   methods: {
     toggleDarkMode: function() {
@@ -21,6 +20,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.dm-toggle {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 5em;
+}
 .switch {
   display: inline-block;
   height: 34px;
