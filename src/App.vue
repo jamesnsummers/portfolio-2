@@ -22,6 +22,9 @@ export default {
 <style lang="scss">
 html {
   background: #FFF;
+  img {
+    filter: invert(15%);
+  }
   &.dm {
     background: #35373b;
     #app {
