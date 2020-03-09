@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped>
-
+p {
+  margin: 0 auto;
+  width: fit-content;
+}
 </style>
