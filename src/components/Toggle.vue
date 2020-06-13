@@ -4,7 +4,7 @@
       <input type="checkbox">
       <span class="slider round"></span>
     </label>
-    <p>light / dark</p>
+    <p>dark mode</p>
   </div>
 </template>
 
