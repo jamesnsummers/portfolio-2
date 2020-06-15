@@ -13,7 +13,10 @@ export default {
   name: 'Toggle',
   methods: {
     toggleDarkMode: function() {
-      document.documentElement.classList.toggle('dm');
+      setTimeout(() => {
+        if (document.querySelector('.switch > input').checked) document.documentElement.classList.add('dm');
+        else document.documentElement.classList.remove('dm');
+      }, 50);
     }
   }
 }
